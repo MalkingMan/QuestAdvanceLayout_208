@@ -18,6 +18,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.material3.CardDefaults
+import androidx.compose.ui.graphics.Color
+
 
 
 
