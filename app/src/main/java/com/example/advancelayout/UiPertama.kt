@@ -142,4 +142,3 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
         Text("copyright, 2025", fontSize = 12.sp, modifier = Modifier.padding(bottom = 20.dp))
     }
 }
-x`
