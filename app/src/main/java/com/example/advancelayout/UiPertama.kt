@@ -63,7 +63,7 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 Spacer(modifier = Modifier.width(20.dp))
                 Column {
                     Text(
-                        text = "Bambang Sumantri",
+                        text = "Muhammad Array Al-khozini",
                         fontSize = 20.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White
