@@ -34,8 +34,8 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
             .padding(top = 100.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Teknologi Informasi", fontSize = 28.sp, fontWeight = FontWeight.Bold)
-        Text("Universitas Muhammadiyah Yogyakarta", fontSize = 18.sp)
+        Text("Teknologi Informasi", fontSize = 32.sp, fontWeight = FontWeight.Bold)
+        Text("Universitas Muhammadiyah Yogyakarta", fontSize = 20.sp)
 
         Spacer(modifier = Modifier.height(25.dp))
 
