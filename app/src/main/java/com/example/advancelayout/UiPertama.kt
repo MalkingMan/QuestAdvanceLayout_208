@@ -60,7 +60,7 @@ fun ActivitasPertama(modifier: Modifier ) {
                 Column(){
                     Text(text = stringResource(id = R.string.nama),
                         fontSize = 30.sp,
-                        fontFamily = fontFamily.Cursive,
+                        fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
@@ -86,7 +86,6 @@ fun ActivitasPertama(modifier: Modifier ) {
     }
     Box(
         modifier = Modifier.fillMaxSize(),
-        .fillMaxSize()
     ){
      Text(
          text = stringResource(id = R.string.copy),
