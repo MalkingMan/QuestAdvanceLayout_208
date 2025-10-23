@@ -100,7 +100,7 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 )
                 Spacer(modifier = Modifier.width(20.dp))
                 Column {
-                    Text("Isi Nama", fontSize = 20.sp, color = Color.White, fontWeight = FontWeight.Bold)
+                    Text("Muhammad Candra", fontSize = 20.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     Text("Isi Alamat", fontSize = 16.sp, color = Color.Cyan)
                     Text("Isi No Handphone", fontSize = 14.sp, color = Color.White)
                 }
