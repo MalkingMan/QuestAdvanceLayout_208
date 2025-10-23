@@ -24,14 +24,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight // Diperlukan untuk FontWeight.Bold
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.advancelayout.R // Import yang paling penting
+
 
 @Composable
 fun ActivitasContoh(modifier: Modifier = Modifier) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 60.dp),
+            .padding(top = 100.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text("Teknologi Informasi", fontSize = 28.sp, fontWeight = FontWeight.Bold)
