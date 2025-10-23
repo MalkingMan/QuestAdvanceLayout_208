@@ -112,7 +112,13 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 .fillMaxWidth()
                 .padding(16.dp),
             colors = CardDefaults.cardColors(containerColor = Color(0xFF0F6D1C))
-        )
+        ){
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(10.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
 
 
         Spacer(modifier = Modifier.weight(1f))
