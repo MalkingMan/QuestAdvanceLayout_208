@@ -107,6 +107,13 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
             }
         }
 
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF0F6D1C))
+        )
+
 
         Spacer(modifier = Modifier.weight(1f))
         Text("copyright, 2025", fontSize = 12.sp, modifier = Modifier.padding(bottom = 20.dp))
