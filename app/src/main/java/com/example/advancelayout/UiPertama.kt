@@ -31,7 +31,7 @@ import androidx.compose.runtime.Composable
 
 
 @Composable
-fun ActivitasPertama(modifier: Modifier ) {
+fun ActivitasPertama(modifier: Modifier = Modifier ) {
     Column(modifier = Modifier.padding(top = 100.dp)
         .fillMaxSize(),
     horizontalAlignment = Alignment.CenterHorizontally
