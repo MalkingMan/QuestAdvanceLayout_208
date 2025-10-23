@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
                 // Ganti Scaffold dan Greeting dengan Surface dan ActivitasPertama
                 Surface(modifier = Modifier.fillMaxSize()) {
                     // Panggil Composable dari UiPertama.kt di sini
-                    ActivitasPertama()
+                    ActivitasContoh()
                 }
             }
         }
