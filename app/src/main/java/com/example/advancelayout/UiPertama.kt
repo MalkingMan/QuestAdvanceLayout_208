@@ -136,10 +136,10 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 }
             }
         }
-            }
 
-
+        // **PERBAIKAN:** Spacer dan Text sekarang ada di dalam Column
         Spacer(modifier = Modifier.weight(1f))
         Text("copyright, 2025", fontSize = 12.sp, modifier = Modifier.padding(bottom = 20.dp))
     }
 }
+x`
