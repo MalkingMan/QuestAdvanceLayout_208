@@ -69,7 +69,7 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                         color = Color.White
                     )
                     Text(
-                        text = "Turi, Sleman",
+                        text = "Kediri",
                         fontSize = 16.sp,
                         color = Color.Yellow
                     )
