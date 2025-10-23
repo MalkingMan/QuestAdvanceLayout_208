@@ -102,7 +102,7 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 Column {
                     Text("Muhammad Candra", fontSize = 20.sp, color = Color.White, fontWeight = FontWeight.Bold)
                     Text("Purworejo", fontSize = 16.sp, color = Color.Cyan)
-                    Text("Isi No Handphone", fontSize = 14.sp, color = Color.White)
+                    Text("08125467832", fontSize = 14.sp, color = Color.White)
                 }
             }
         }
