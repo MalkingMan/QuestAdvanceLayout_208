@@ -119,6 +119,16 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                     .padding(10.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
+                val gambar = painterResource(id = R.drawable.gambar)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(70.dp)
+                        .clip(CircleShape)
+                        .padding(5.dp)
+                )
+            }
 
 
         Spacer(modifier = Modifier.weight(1f))
