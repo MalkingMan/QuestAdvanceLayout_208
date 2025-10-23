@@ -1,4 +1,3 @@
-kotlin
 package com.example.advancelayout
 
 import androidx.compose.foundation.Image
@@ -77,6 +76,37 @@ fun ActivitasContoh(modifier: Modifier = Modifier) {
                 }
             }
         }
+
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF0026FF))
+        ) {
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(10.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                val gambar = painterResource(id = R.drawable.gambar)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(70.dp)
+                        .clip(CircleShape)
+                        .padding(5.dp)
+                )
+                Spacer(modifier = Modifier.width(20.dp))
+                Column {
+                    Text("Isi Nama", fontSize = 20.sp, color = Color.White, fontWeight = FontWeight.Bold)
+                    Text("Isi Alamat", fontSize = 16.sp, color = Color.Cyan)
+                    Text("Isi No Handphone", fontSize = 14.sp, color = Color.White)
+                }
+            }
+        }
+
 
         Spacer(modifier = Modifier.weight(1f))
         Text("copyright, 2025", fontSize = 12.sp, modifier = Modifier.padding(bottom = 20.dp))
